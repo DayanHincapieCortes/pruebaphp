@@ -1,0 +1,1 @@
+SELECT * FROM producto WHERE Stock = (SELECT MAX(Stock ) FROM producto);
